@@ -1,0 +1,10 @@
+==> API Gateway : 
+#1 Separate out cross cutting concerns.
+#2 Separate and consolidate cross cutting concerns across microservices.
+#3 Replacing multiple client calls with single API call. And, some features of reverse proxy.
+#4 Routing based on headers, paths and params etc. And, some features of Load Balancer component.
+
+==> A canary release is a deployment strategy whereby changes are initially released to a small subset of users.
+==> A/B testing (also known as split testing or bucket testing) is a methodology for comparing two versions of a webpage 
+    or app against each other to determine which one performs better.
+==> Hot Swappable :

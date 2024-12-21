@@ -73,7 +73,7 @@ insert operations.
 
  Names structs types are convertible (if they are structurally compatible).
 
- Tag differences don't prevent type conversion.
+ Tag differences dont prevent type conversion.
 
  Structs are passed by values unless  a pointer is used.
 
@@ -87,18 +87,18 @@ insert operations.
 
 //--------- Go class 14 : References and Values semantics   ---------//
 
- Any struct with mutex must be passed by reference(if they are copied they don't work).
+ Any struct with mutex must be passed by reference(if they are copied they dont work).
 
  If things to be shared then always pass a pointer.
 
  Stack allocation is more efficient and go tries to allocate on stack(accessing a variable directly is more efficient than following a pointer).Accessing a dense sequence of data is more efficient  than sparse data(an array is faster than linked list).
 
- It means that go prefers to allocate on stack but sometimes can't.(9:02 in lecture).
+ It means that go prefers to allocate on stack but sometimes cant.(9:02 in lecture).
 
  Value returned by range is always a copy, we have to use index if we want to mutate
   Element.
  
- Anytime function mutates a slice that's passed in , we must return a copy.(that's because slice backing array may be reallocated to grow).
+ Anytime function mutates a slice thats passed in , we must return a copy.(thats because slice backing array may be reallocated to grow).
  Keeping a pointer to an element of slice is risky(as if you mutate slice by appending some elements it address may change due to reallocation).
 
 //--------- Go class 17 : OOPs ---------//

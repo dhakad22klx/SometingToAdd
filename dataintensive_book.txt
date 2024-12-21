@@ -1,0 +1,21 @@
+>>>
+A hot-swappable CPU is a CPU that allows an I/O module to be removed and replaced while it's still powered on and connected to the CPU. The CPU should remain active during this operation without declaring a fault. 
+Hot-swapping is necessary in most critical equipment which are supposed to be fault tolerant and expected to work 24/7.
+Hot swapping is the replacement or addition of components to a computer system without stopping, shutting down, or rebooting the system;[1] hot plugging describes the addition of components only.[2] Components which have such functionality are said to be hot-swappable or hot-pluggable; likewise, components which do not are cold-swappable or cold-pluggable.
+
+>>> A runaway process is a process where its own progress causes it to progress faster.
+
+>>> Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior.
+>>> Test Driven Development (TDD) is a software development approach where tests are written before the actual code. 
+    It offers several advantages: Comprehensive Test Coverage: TDD ensures that all new code is covered by at least one test, leading to more robust software.
+>>> In the realm of databases and storage systems, data locality refers to the idea that related or frequently accessed data should be stored close to each other physically.
+
+
+Chapter 3 : 
+>>> Hash indexes 
+>>> Sorted String Table, or SSTable for short.
+
+Chapter 4 : 
+>>> Data outlives code: While code is updated often, some data in your DB might be years old.
+
+Ho
