@@ -1,2 +1,2 @@
 # SometingToAdd
-When i want to push a new doc
+Storage of learning documents.
